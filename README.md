@@ -5,6 +5,8 @@
 ## Descrição
 Este projeto tem como objetivo criar um clone do website do spotify, permitindo aos usuários navegar por artistas e álbuns populares. Vale ressaltar que: é um projeto para fins de aprendizado, não quero copiar a idea da empresa Spotify. :smile: 
 
+<img src="./assets/images/spotify.png" width="700">
+
 ## Funcionalidades
 * Navegação por artistas populares
 * Navegação por álbuns populares
