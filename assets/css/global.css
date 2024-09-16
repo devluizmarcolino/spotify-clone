@@ -173,8 +173,14 @@ header a {
 .header span i {
     background-color: #242424;
     padding: 1rem;
+    cursor: pointer;
     border-radius: 50%;
     margin-right: 0.5rem;
+    transition: 0.4s;
+}
+
+.header span i:hover {
+    transform: scale(1.04);
 }
 
 
@@ -314,4 +320,13 @@ header a {
 
 .banner button:hover {
     transform: scale(1.04);
+}
+
+.responsive {
+    padding: 1rem;
+    font-size: 1rem;
+} 
+
+.responsive p {
+    margin-top: 1rem;
 }

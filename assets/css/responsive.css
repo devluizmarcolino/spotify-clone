@@ -1,0 +1,49 @@
+@media (max-width: 768px) {
+  .container {
+   display: none; 
+  }
+
+  main .content {
+    display: none;
+  }
+
+  main .responsive {
+
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .header span {
+    display: none;
+  }
+
+  .header .input {
+    display: none;
+  }
+
+  header .buttons {
+    display: none;
+  }
+
+  .header {
+    background-color: transparent;
+  }
+
+  header .nav-logo i{
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+ body {
+    background: linear-gradient(90deg, rgba(175,40,150,1), rgba(80,155,245,1));
+  }
+}
+
+@media (min-width: 769px) {
+    .responsive {
+        display: none;
+    }
+}
