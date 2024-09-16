@@ -86,6 +86,12 @@ body {
     cursor: pointer;
     font-size: 0.87rem;
     border-radius: 1.25rem;
+    font-weight: 600;
+    transition: 0.4s;
+}
+
+.nav-playlist button:hover, .nav-podcast button:hover {
+    transform: scale(1.04);
 }
 
 .nav-playlist p, .nav-podcast p {
@@ -110,13 +116,19 @@ body {
 
 .nav-lenguage {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #505050;
     color: #fff;
     padding: 0.3rem;
     margin-top: 0.5rem;
     cursor: pointer;
     border-radius: 1.25rem;
     width: 10rem;
+    transition: all 0.4s;
+}
+
+.nav-lenguage:hover {
+    border: 1px solid #fff;
+    transform: scale(1.04);
 }
 
 main {
@@ -137,19 +149,25 @@ main {
     background-color: #000;
 }
 
-.header a {
+header a {
     text-decoration: none;
     color: #b7b7b7;
     padding-right: 0.6rem;
 }
 
 .header button {
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     color: #000;
     border: none;
-    padding: 1rem;
+    text-align: center;
+    padding: 0.7rem;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.header button:hover {
+    transform: scale(1.04);
 }
 
 .header span i {
@@ -167,7 +185,7 @@ main {
     padding: 1rem 1rem;
     border-radius: 1.5rem;
     width: 18.75rem;
-    margin-right: 17rem;
+    margin-right: 21.5rem;
 }
 
 .input i {
@@ -244,8 +262,15 @@ main {
     align-items: center;
 }
 
-.content .info-content h1 {
-    font-size: 0.9rem;
+.content .info-content a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.content .info-content a:hover {
+    text-decoration: underline;
 }
 
 .content .info-content p {
@@ -284,4 +309,9 @@ main {
     padding: 0.5rem;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.banner button:hover {
+    transform: scale(1.04);
 }
